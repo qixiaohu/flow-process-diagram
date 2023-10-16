@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T09:00:01.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="6O1zBHdijac-8B2FdmmY" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T09:05:13.233Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JHnO9n5UPkE-zdfGPqEt" version="22.0.4" type="github">
   <diagram name="第 1 页" id="__mT4-eTXneNjicop5YK">
     <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,20 @@
         </mxCell>
         <mxCell id="dwnvYU284FW_a3KNn8sE-17" value="貔貅各产品线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="35" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dwnvYU284FW_a3KNn8sE-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#FF3333;strokeWidth=3;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="300" as="sourcePoint" />
+            <mxPoint x="520" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="350" />
+              <mxPoint x="310" y="420" />
+              <mxPoint x="480" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwnvYU284FW_a3KNn8sE-23" value="5. 定时任务扫描各产品产出的报送情况， 将已经报送的产出数据推动到经营版平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
