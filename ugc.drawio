@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T09:28:33.311Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0JnDLbw_j8kwIu87d-_M" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T09:59:03.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Kys97fK17ZDMOq0uvW16" version="23.1.5" type="github">
   <diagram name="第 1 页" id="Cf3uCIYo55_KZimJEd9P">
     <mxGraphModel dx="1728" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -34,8 +34,8 @@
             <mxPoint x="1282.62" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BDwO3wF9fye51tHHUWiG-9" value="查询 url_cache" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="1242.62" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="BDwO3wF9fye51tHHUWiG-9" value="对正则匹配列表查询 url_cache" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="1242.6299999999999" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BDwO3wF9fye51tHHUWiG-10" value="" style="endArrow=classic;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#788AA3;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-6" target="BDwO3wF9fye51tHHUWiG-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -141,19 +141,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BDwO3wF9fye51tHHUWiG-33" value="去除锚点和参数信息(①), 并查询 redis 缓存(②)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="1512" y="700" width="162" height="40" as="geometry" />
+          <mxGeometry x="1512" y="810" width="162" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BDwO3wF9fye51tHHUWiG-34" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-27" target="BDwO3wF9fye51tHHUWiG-33">
+        <mxCell id="BDwO3wF9fye51tHHUWiG-34" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="BDwO3wF9fye51tHHUWiG-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1880" y="760" as="sourcePoint" />
-            <mxPoint x="1930" y="710" as="targetPoint" />
+            <mxPoint x="1593.3" y="670.22" as="sourcePoint" />
+            <mxPoint x="1592.582" y="720.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-48" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" connectable="0" parent="BDwO3wF9fye51tHHUWiG-34">
+          <mxGeometry x="-0.2068" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BDwO3wF9fye51tHHUWiG-35" value="①：url.split(&#39;#&#39;)[0].split(&#39;?&#39;)[0]&lt;br&gt;②：redis 缓存数据结构:&lt;br&gt;&lt;div data-slate-node=&quot;element&quot; style=&quot;padding-left: 0px;&quot; data-morpho-type=&quot;paragraph&quot; class=&quot;mp-paragraph-wrapper&quot;&gt;{&#39;score&#39;: 0，&#39;main&#39;: xxx, &#39;sub&#39;: xxx, &#39;grand&#39;:&#39;&#39;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="700" width="240" height="45" as="geometry" />
+          <mxGeometry x="1690" y="807.5" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="BDwO3wF9fye51tHHUWiG-38" value="redis 查询结果为空" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
-          <mxGeometry x="1524.5" y="770" width="137" height="70" as="geometry" />
+        <mxCell id="BDwO3wF9fye51tHHUWiG-38" value="redis 查询结果不为空" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="1524.5" y="885" width="137" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDwO3wF9fye51tHHUWiG-39" value="循环遍历正则匹配列表" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
           <mxGeometry x="793.62" y="480" width="158" height="60" as="geometry" />
@@ -170,6 +175,67 @@
             <mxPoint x="951.62" y="934.83" as="targetPoint" />
             <Array as="points">
               <mxPoint x="866" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-42" value="循环遍历正则匹配列表" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="1514" y="710" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-44" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-42" target="BDwO3wF9fye51tHHUWiG-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="670" as="sourcePoint" />
+            <mxPoint x="1830" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-45" value="DRS 字段设置为 101" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="1696" y="900" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-46" value="否" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-38" target="BDwO3wF9fye51tHHUWiG-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1690" y="919.9999999999998" as="sourcePoint" />
+            <mxPoint x="1723.5" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-47" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-33" target="BDwO3wF9fye51tHHUWiG-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="990" as="sourcePoint" />
+            <mxPoint x="1470" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-51" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-38" target="BDwO3wF9fye51tHHUWiG-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="830" as="sourcePoint" />
+            <mxPoint x="1593" y="989.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-52" value="result[&quot;drs&quot;] = redis[&quot;socre&quot;]" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="1504.5" y="990" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-53" value="redis[&quot;score&quot;] == 0" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="1524.5" y="1080" width="137" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-54" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-52" target="BDwO3wF9fye51tHHUWiG-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="1050" as="sourcePoint" />
+            <mxPoint x="1480" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-55" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;result[&quot;range&quot;] = 2&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;result[&quot;main&quot;] = redis[&quot;main&quot;]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;result[&quot;sub&quot;] = redis[&quot;sub&quot;]&lt;/span&gt;&lt;/div&gt;result[&quot;grand&quot;] = redis[&quot;grand&quot;]" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
+          <mxGeometry x="1500.25" y="1190" width="185.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-56" value="是" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-53" target="BDwO3wF9fye51tHHUWiG-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="1170" as="sourcePoint" />
+            <mxPoint x="1820" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDwO3wF9fye51tHHUWiG-57" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BDwO3wF9fye51tHHUWiG-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="1340" as="sourcePoint" />
+            <mxPoint x="1640" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1970" y="1240" />
+              <mxPoint x="1980" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
