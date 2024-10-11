@@ -50,7 +50,7 @@
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-31" value="通过 ip 代理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zS4iTFZCfX0krXfUyPuB-24">
           <mxGeometry x="-0.0596" y="1" relative="1" as="geometry">
-            <mxPoint x="5" y="-16" as="offset" />
+            <mxPoint x="5" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zS4iTFZCfX0krXfUyPuB-3" target="zS4iTFZCfX0krXfUyPuB-12">
@@ -74,6 +74,35 @@
           <mxGeometry x="0.0894" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-35" value="华北&amp;nbsp; &amp;nbsp;go_server proxy vip:4.4.4.4" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="80" width="200" height="190" as="geometry">
+            <mxRectangle x="640" y="90" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-36" value="go_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zS4iTFZCfX0krXfUyPuB-35">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-37" value="go_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zS4iTFZCfX0krXfUyPuB-35">
+          <mxGeometry x="10" y="120" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-44" value="华中 go_server&amp;nbsp;proxy vip:5.5.5.5" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="320" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-45" value="go_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zS4iTFZCfX0krXfUyPuB-44">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-46" value="go_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zS4iTFZCfX0krXfUyPuB-44">
+          <mxGeometry x="10" y="120" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-47" value="华南 go_server&amp;nbsp;proxy vip:6.6.6.6" style="swimlane;whiteSpace=wrap;html=1;align=left;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="550" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-48" value="go_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zS4iTFZCfX0krXfUyPuB-47">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-49" value="go_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zS4iTFZCfX0krXfUyPuB-47">
+          <mxGeometry x="10" y="120" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
