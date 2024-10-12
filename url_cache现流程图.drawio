@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="3OlnybCZuQFbsvdLqa09">
-    <mxGraphModel dx="1194" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-35" value="华北&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;align=left;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="82.5" width="200" height="195" as="geometry">
+          <mxGeometry x="1450" y="82.51" width="200" height="195" as="geometry">
             <mxRectangle x="640" y="90" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -110,14 +110,14 @@
         <mxCell id="zS4iTFZCfX0krXfUyPuB-53" value="url_nginx proxy vip: GZNJ:&amp;nbsp;&lt;span style=&quot;color: rgb(21, 27, 38); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, &amp;quot;sans-serif&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; background-color: rgb(230, 240, 255);&quot;&gt;157.148.69.156:80/443&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(21, 27, 38); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, &amp;quot;sans-serif&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; background-color: rgb(230, 240, 255);&quot;&gt;GZXG:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(230, 240, 255); color: rgb(21, 27, 38); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, &amp;quot;sans-serif&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left;&quot;&gt;183.240.99.44:80/443&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="645" y="608.75" width="185" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="zS4iTFZCfX0krXfUyPuB-57" value="go_server proxy vip: 4.4.4.4" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="150" width="130" height="60" as="geometry" />
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-57" value="go_server proxy vip: &lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;10.11.133.32:23455/23456/23457&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="150" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zS4iTFZCfX0krXfUyPuB-58" value="go_server proxy vip: 5.5.5.5" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="382.5" width="130" height="60" as="geometry" />
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-58" value="go_server proxy vip: &lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;10.169.5.124:23455/23456/23457&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="382.5" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zS4iTFZCfX0krXfUyPuB-59" value="go_server proxy vip: 6.6.6.6" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="625" width="130" height="60" as="geometry" />
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-59" value="go_server proxy vip: 10.11.48.11:&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;23455/23456/23457&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="622.5" width="190" height="65" as="geometry" />
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-63" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zS4iTFZCfX0krXfUyPuB-21" target="zS4iTFZCfX0krXfUyPuB-57">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -156,7 +156,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-70" value="华中" style="swimlane;whiteSpace=wrap;html=1;align=left;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="315" width="200" height="195" as="geometry">
+          <mxGeometry x="1450" y="315" width="200" height="195" as="geometry">
             <mxRectangle x="640" y="90" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -170,7 +170,7 @@
           <mxGeometry x="60" y="135" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-74" value="华南" style="swimlane;whiteSpace=wrap;html=1;align=left;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="557.5" width="200" height="195" as="geometry">
+          <mxGeometry x="1440" y="557.5" width="200" height="195" as="geometry">
             <mxRectangle x="640" y="90" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -197,6 +197,15 @@
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-82" value="cname" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="330" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-86" value="TCP 连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-87" value="TCP 连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="352.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zS4iTFZCfX0krXfUyPuB-88" value="TCP 连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="592.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
