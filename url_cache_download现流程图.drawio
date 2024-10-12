@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="a8IFIMQ_GZ5A4tOtRfXz">
-    <mxGraphModel dx="1194" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,11 +70,8 @@
         <mxCell id="jn2VYIsVmCKofuJKfp-f-27" value="url_nginx proxy vip: NJJS:&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0.88); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(245, 245, 245);&quot;&gt;180.101.50.164&lt;/span&gt;&lt;span style=&quot;color: rgb(21, 27, 38); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, &amp;quot;sans-serif&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; background-color: rgb(230, 240, 255);&quot;&gt;:443&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="645" y="660" width="185" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="jn2VYIsVmCKofuJKfp-f-30" value="go_server proxy vip: 4.4.4.4" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="150" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jn2VYIsVmCKofuJKfp-f-31" value="go_server proxy vip: 5.5.5.5" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="665" width="130" height="60" as="geometry" />
+        <mxCell id="jn2VYIsVmCKofuJKfp-f-30" value="后端下载服务，参照 具体 nginx.conf&amp;nbsp;&lt;div&gt;(因为 nginx 代理的不只一个服务实例)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="150" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jn2VYIsVmCKofuJKfp-f-33" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jn2VYIsVmCKofuJKfp-f-11" target="jn2VYIsVmCKofuJKfp-f-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,10 +79,10 @@
             <mxPoint x="1280" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jn2VYIsVmCKofuJKfp-f-34" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jn2VYIsVmCKofuJKfp-f-4" target="jn2VYIsVmCKofuJKfp-f-31">
+        <mxCell id="jn2VYIsVmCKofuJKfp-f-34" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jn2VYIsVmCKofuJKfp-f-4" target="jn2VYIsVmCKofuJKfp-f-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1090" y="190" as="sourcePoint" />
-            <mxPoint x="1200" y="190" as="targetPoint" />
+            <mxPoint x="1150" y="695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jn2VYIsVmCKofuJKfp-f-47" value="&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Helvetica Neue, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#151b26&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;downloadapi.n.shifen.com&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
@@ -102,6 +99,9 @@
         </mxCell>
         <mxCell id="jn2VYIsVmCKofuJKfp-f-50" value="cname" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="330" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2VYIsVmCKofuJKfp-f-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jn2VYIsVmCKofuJKfp-f-53" target="jn2VYIsVmCKofuJKfp-f-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jn2VYIsVmCKofuJKfp-f-53" value="BDDWD" style="swimlane;whiteSpace=wrap;html=1;align=left;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="900" y="310.62" width="180" height="205" as="geometry">
@@ -128,6 +128,12 @@
             <mxPoint x="820" y="530" as="sourcePoint" />
             <mxPoint x="920" y="544" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2VYIsVmCKofuJKfp-f-60" value="后端下载服务，参照 具体 nginx.conf&amp;nbsp;&lt;div&gt;(因为 nginx 代理的不只一个服务实例)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="383.75" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2VYIsVmCKofuJKfp-f-62" value="后端下载服务，参照 具体 nginx.conf&amp;nbsp;&lt;div&gt;(因为 nginx 代理的不只一个服务实例)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="665" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
