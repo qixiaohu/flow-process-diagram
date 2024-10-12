@@ -170,7 +170,7 @@
           <mxGeometry x="60" y="135" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zS4iTFZCfX0krXfUyPuB-74" value="华南" style="swimlane;whiteSpace=wrap;html=1;align=left;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="527.5" width="200" height="195" as="geometry">
+          <mxGeometry x="1420" y="557.5" width="200" height="195" as="geometry">
             <mxRectangle x="640" y="90" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
